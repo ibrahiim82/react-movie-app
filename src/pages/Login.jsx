@@ -9,7 +9,7 @@ const Login = () => {
   //* ayrı stateler
   // const [email, setEmail] = useState();
   // const [password, setPassword] = useState();
-  //! inputlarla çalışıyorsak statelerin ilk değeri null veya undefined olmamalı
+  
   //* birleştirilmiş state
   const [info, setInfo] = useState({
     email: "",
