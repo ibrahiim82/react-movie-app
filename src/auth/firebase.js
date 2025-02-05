@@ -4,7 +4,7 @@ import { getAuth } from "firebase/auth";
 // TODO: Replace the following with your app's Firebase project configuration
 //* https://firebase.google.com/docs/auth/web/start
 //* https://console.firebase.google.com/ => project settings
-//! firebase console settings bölümünden firebaseconfig ayarlarını al
+//! firebase console settings bölümünden firebaseconfig ayarlarını al,envde kullanılacak.
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_apiKey,
   authDomain: process.env.REACT_APP_authDomain,
