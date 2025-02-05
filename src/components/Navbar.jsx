@@ -41,7 +41,7 @@ export default function Navbar() {
                       className="h-8 w-8 rounded-full"
                       src={currentUser?.photoURL || avatar}
                       alt="user"
-                      
+                      //^ dış linklerden alacağımız resimler güvenlik nedeniyle görünmeyebilir, bunu aşmak için ekliyoruz
                       referrerPolicy="no-referrer"
                     />
                   </Menu.Button>
