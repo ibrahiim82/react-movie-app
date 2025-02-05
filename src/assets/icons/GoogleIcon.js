@@ -28,4 +28,5 @@ const GoogleIcon = (props) => (
   </svg>
 );
 
+
 export default GoogleIcon;
