@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
 import axios from "axios";
-export const MovieContext = createContext();
 
+export const MovieContext = createContext();
 export const useMovieContext = () => {
   return useContext(MovieContext);
 };
