@@ -15,6 +15,7 @@ const Main = () => {
   const API_KEY = process.env.REACT_APP_TMDB_KEY;
   // const SEARCH_API = `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=${search}`;
   const SEARCH_API = `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=`;
+  //! ilk satırda, arama terimi (search değişkeni) URL'ye direkt olarak dahil ediliyor. ikinci satırda ise, arama terimi (query) daha sonra eklenmek üzere bir yer tutucu olarak bırakılıyor.
 
   const handleSubmit = (e) => {
     e.preventDefault();
